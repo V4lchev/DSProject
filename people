@@ -1,0 +1,77 @@
+<people>
+<person id="1" >
+<name>Ivan</name>
+<city>Varna</city>
+<age>20</age>
+</person>
+<person id="2" >
+<name>Maria</name>
+<city>Varna</city>
+<age>21</age>
+</person>
+<person id="3" >
+<name>Petar</name>
+<city>Burgas</city>
+<age>22</age>
+</person>
+<person id="4" >
+<name>Georgi</name>
+<city>Plovdiv</city>
+<age>23</age>
+</person>
+<person id="5" >
+<name>Nikolay</name>
+<city>Ruse</city>
+<age>24</age>
+</person>
+<person id="6" >
+<name>Elena</name>
+<city>StaraZagora</city>
+<age>20</age>
+</person>
+<person id="7" >
+<name>Martin</name>
+<city>Pleven</city>
+<age>21</age>
+</person>
+<person id="8" >
+<name>Desislava</name>
+<city>Dobrich</city>
+<age>22</age>
+</person>
+<person id="9" >
+<name>Kalin</name>
+<city>Shumen</city>
+<age>23</age>
+</person>
+<person id="10" >
+<name>Teodora</name>
+<city>Yambol</city>
+<age>24</age>
+</person>
+<person id="11" >
+<name>Kristian</name>
+<city>Haskovo</city>
+<age>25</age>
+</person>
+<person id="12" >
+<name>Simona</name>
+<city>Sliven</city>
+<age>26</age>
+</person>
+<person id="13" >
+<name>Daniel</name>
+<city>Pernik</city>
+<age>27</age>
+</person>
+<person id="14" >
+<name>Monika</name>
+<city>Vidin</city>
+<age>28</age>
+</person>
+<person id="15" >
+<name>Viktor</name>
+<city>Blagoevgrad</city>
+<age>29</age>
+</person>
+</people>
