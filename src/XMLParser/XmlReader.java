@@ -1,8 +1,5 @@
-package Parser;
+package XMLParser;
 
-import Elements.XmlData;
-import Elements.XmlElement;
-import Files.XmlFile;
 /**
  * XML parser клас.
  * Преобразува XML текст в обекти.

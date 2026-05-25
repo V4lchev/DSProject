@@ -1,6 +1,5 @@
-package Files;
+package XMLParser;
 
-import Elements.XmlElement;
 /**
  * Представя XML файл.
  */

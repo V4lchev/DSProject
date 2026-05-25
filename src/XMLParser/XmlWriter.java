@@ -1,8 +1,5 @@
-package Writer;
+package XMLParser;
 
-import Elements.XmlData;
-import Elements.XmlElement;
-import Files.XmlFile;
 /**
  * XML writer клас.
  * Преобразува XML обектите в текст.

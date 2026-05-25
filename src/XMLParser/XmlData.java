@@ -1,4 +1,4 @@
-package Elements;
+package XMLParser;
 /**
  * Представя XML attribute или data.
  */
