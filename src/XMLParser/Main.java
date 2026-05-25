@@ -7,14 +7,19 @@ import java.util.Scanner;
  * Стартира XML Parser приложението.
  */
 public class Main {
+
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
+
         CommandProcessor processor = new CommandProcessor();
 
         System.out.println("XML Parser");
-        System.out.println("Напишете help за списък с команди.");
+
+        processor.executeCommand("help");
 
         while (true) {
+
             System.out.print("> ");
 
             String command = input.nextLine();
@@ -25,7 +30,5 @@ public class Main {
                 break;
             }
         }
-
-        input.close();
     }
 }
