@@ -1,0 +1,33 @@
+<books>
+
+<book id="1">
+<title>Java Basics</title>
+<author>Ivan Petrov</author>
+<year>2020</year>
+</book>
+
+<book id="2">
+<title>XML Guide</title>
+<author>Maria Ivanova</author>
+<year>2022</year>
+</book>
+
+<book id="3">
+<title>OOP Programming</title>
+<author>Georgi Georgiev</author>
+<year>2019</year>
+</book>
+
+<book id="4">
+<title>Data Structures</title>
+<author>Petar Kolev</author>
+<year>2021</year>
+</book>
+
+<book id="5">
+<title>Algorithms</title>
+<author>Elena Dimitrova</author>
+<year>2018</year>
+</book>
+
+</books>

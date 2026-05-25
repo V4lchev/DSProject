@@ -1,0 +1,27 @@
+<cars>
+    <car id="1">
+        <brand>Toyota</brand>
+        <model>Celica</model>
+        <year>2001</year>
+    </car>
+    <car id="2">
+        <brand>Volkswagen</brand>
+        <model>Passat</model>
+        <year>2006</year>
+    </car>
+    <car id="3">
+        <brand>Audi</brand>
+        <model>A3</model>
+        <year>2007</year>
+    </car>
+    <car id="4">
+        <brand>BMW</brand>
+        <model>E46</model>
+        <year>2003</year>
+    </car>
+    <car id="5">
+        <brand>Mercedes</brand>
+        <model>C220</model>
+        <year>2008</year>
+    </car>
+</cars>

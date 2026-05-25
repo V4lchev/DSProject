@@ -8,40 +8,51 @@ public class XmlWriter {
 
     public String build(XmlFile file) {
 
-        String result = "";
-
-        result += "<people>\n";
-
-        for (int i = 0; i < file.getRootElement().getElements().size(); i++) {
-
-            XmlElement person = file.getRootElement().getElements().get(i);
-
-            result += "<person ";
-
-            for (int j = 0; j < person.getData().size(); j++) {
-
-                XmlData data = person.getData().get(j);
-
-                result += data.getName() + "=\"" + data.getValue() + "\" ";
-            }
-
-            result += ">\n";
-
-            for (int j = 0; j < person.getElements().size(); j++) {
-
-                XmlElement element = person.getElements().get(j);
-
-                result += "<" + element.getTagName() + ">";
-
-                result += element.getText();
-
-                result += "</" + element.getTagName() + ">\n";
-            }
-
-            result += "</person>\n";
+        if (file == null || file.getRootElement() == null) {
+            return "";
         }
 
-        result += "</people>";
+        return buildElement(file.getRootElement(), 0);
+    }
+
+    private String buildElement(XmlElement element, int level) {
+
+        String result = "";
+
+        String spaces = "";
+
+        for (int i = 0; i < level; i++) {
+            spaces += "    ";
+        }
+
+        result += spaces + "<" + element.getTagName();
+
+        for (int i = 0; i < element.getData().size(); i++) {
+
+            XmlData data = element.getData().get(i);
+
+            result += " " + data.getName() + "=\"" + data.getValue() + "\"";
+        }
+
+        result += ">";
+
+        if (element.getElements().size() == 0) {
+
+            result += element.getText();
+
+            result += "</" + element.getTagName() + ">\n";
+        }
+        else {
+
+            result += "\n";
+
+            for (int i = 0; i < element.getElements().size(); i++) {
+
+                result += buildElement(element.getElements().get(i), level + 1);
+            }
+
+            result += spaces + "</" + element.getTagName() + ">\n";
+        }
 
         return result;
     }

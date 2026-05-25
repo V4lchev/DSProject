@@ -1,0 +1,33 @@
+<dogs>
+
+<dog id="1">
+<name>Rex</name>
+<breed>Husky</breed>
+<age>3</age>
+</dog>
+
+<dog id="2">
+<name>Max</name>
+<breed>Labrador</breed>
+<age>5</age>
+</dog>
+
+<dog id="3">
+<name>Rocky</name>
+<breed>Bulldog</breed>
+<age>2</age>
+</dog>
+
+<dog id="4">
+<name>Charlie</name>
+<breed>Beagle</breed>
+<age>4</age>
+</dog>
+
+<dog id="5">
+<name>Buddy</name>
+<breed>GoldenRetriever</breed>
+<age>6</age>
+</dog>
+
+</dogs>
